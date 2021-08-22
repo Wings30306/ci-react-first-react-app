@@ -1,10 +1,13 @@
 import './App.css';
-import FunctionalGreetingWithProps from './FunctionalGreetingWithProps';
+import ClassbasedGreeting from './components/ClassbasedGreeting';
+// import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
 
 function App() {
   return (
     <div className="App">
-      <FunctionalGreetingWithProps name="Wings" />
+      {//<FunctionalGreetingWithProps name="Wings" /> 
+      }
+      <ClassbasedGreeting name="Wings" />
     </div>
   );
 }
